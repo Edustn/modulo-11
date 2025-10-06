@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="20" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-220" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-180" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes/>
+      <pos x="0" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>7,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="120" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes/>
+      <pos x="500" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DriverInvSel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="220" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>add8.dig</elementName>
+      <elementAttributes/>
+      <pos x="-100" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>add8.dig</elementName>
+      <elementAttributes/>
+      <pos x="240" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>add8.dig</elementName>
+      <elementAttributes/>
+      <pos x="40" y="660"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-120" y="720"/>
+      <p2 x="-100" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="720"/>
+      <p2 x="360" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="720"/>
+      <p2 x="540" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="720"/>
+      <p2 x="0" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="660"/>
+      <p2 x="120" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="660"/>
+      <p2 x="240" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="660"/>
+      <p2 x="540" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="660"/>
+      <p2 x="340" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="660"/>
+      <p2 x="40" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="660"/>
+      <p2 x="160" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="580"/>
+      <p2 x="120" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="680"/>
+      <p2 x="40" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="680"/>
+      <p2 x="240" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="680"/>
+      <p2 x="560" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="600"/>
+      <p2 x="360" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="600"/>
+      <p2 x="420" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="700"/>
+      <p2 x="420" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="700"/>
+      <p2 x="-100" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="700"/>
+      <p2 x="-20" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="700"/>
+      <p2 x="-180" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="640"/>
+      <p2 x="560" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="680"/>
+      <p2 x="-20" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="580"/>
+      <p2 x="100" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="600"/>
+      <p2 x="420" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="680"/>
+      <p2 x="420" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="600"/>
+      <p2 x="360" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="660"/>
+      <p2 x="120" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="640"/>
+      <p2 x="540" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="660"/>
+      <p2 x="540" y="720"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
